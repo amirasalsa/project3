@@ -1,0 +1,19 @@
+{% extends "blog/base.html" %}
+{% block content %}
+{% load static %}
+    <div class="content-section">
+	<legend class="border-bottom mb-3"> About Us </legend>
+	<div>
+        <div>
+        	<p> <img src="{% static "about.jpg" %}" alt="My image" width="700"> </p>
+        	</div>
+            <h6> Books Review: Readers Best Review Platform </h6>
+        	<p> In here at Books Review, you are able to: <br>
+        	Register and Log In as a Reviewer, where you can freely give an honest review about any books, especially novels, you have read. <br>
+        	Post a Review where it will be able to be accessed by other Reviewers. <br>
+        	Delete and Update your Reviews, other Reviewers will not able to do so, as a Review is considered as the Reviewer's possession. <br>
+        	Comment other Reviewer's Review, note that this is a work in progress for the site. <br>
+        	Edit your Profile information.</p>
+	</div>
+</div>
+{% endblock content %}
