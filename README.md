@@ -18,7 +18,7 @@ Features:
 Documentation:
 - Home 
 <img src="/documentation/home1.png" alt="home1">
-<img src="/documentation/home1.png" alt="home2">
+<img src="/documentation/home2.png" alt="home2">
 
 - Register, success, then redirected to login page
 <img src="/documentation/register.png" alt="register">
